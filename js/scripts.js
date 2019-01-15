@@ -5,7 +5,9 @@ $(document).ready(function() {
   var first = response.charAt(first);
   var last = response.charAt(response.length-1);
   var two = (first + last);
+  var reverse = (last + first)
   alert(two);
+  alert(reverse);
 
   });
 });
